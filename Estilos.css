@@ -1,0 +1,83 @@
+/*index */
+
+h2{
+ text-align: center;   
+ font-family: Agency FB;
+}
+h1{
+    text-align: center;   
+    font-family: Agency FB;
+}
+header{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: blue;
+}
+
+.imglogocecy{
+    position: relative;
+    top: 10px;
+    right: 50px;
+}
+.table1{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    height: 50px;
+    position: absolute;
+    bottom: 40;
+    width: 90%;
+    background-color: blue;
+    padding: 70px;
+    background-image: url('IMG/Pie_Pagina.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*Agenda cita */
+form{
+    text-align: center;
+}
+button{
+    background-color: blue;
+    padding: 1px 40px;
+    color:white;
+}
+button:hover {
+    background-color: #5c92ec;
+}
+
+.imgremedioscaseros{
+    width: 500px;
+    position: relative;
+    top: -500px;
+    right: -600px;
+    
+}
+.imgatencionmedica{
+    position: relative;
+    top: -370px;
+    right: -600px;
+    width: 550px;   
+}
+p{
+    font-family: Franklin Gothic Medium, 20;
+    color: #000;
+    text-align: justify;
+}
+.imgorganigrama{
+    position: relative;
+    top: -0px;
+    right: -400px;
+    width: 650px;
+}
+body{
+    background-color: aqua;
+    position: relative;
+}
+
+p{
+margin-right: 800px;
+}
+

@@ -1,0 +1,79 @@
+<!DOCTYPE HTML> 
+<HTML>
+    <HEAD> 
+        <TITLE>Agenda Cita</TITLE> 
+        <LINK HREF="Estilos.css" REL="STYLESHEET" TYPE="TEXT/CSS"/>
+    </HEAD>
+    <header>
+        <img src="IMG\Logo imss.jpg">
+        <IMG  class="imglogocecy" src="IMG\Logo cecytem.png">
+    </header>
+    <body>
+        
+        <br>
+    <table class="table1">
+     <tr>
+        <td><a href="Index.html"><button><h2>PAGINA PRINCIPAL</h2></button></a></td>
+        <td><a href="HistoriaDeLaClinica.html"><button><h2>HISTORIA DE LA CLINICA</h2></button></a></td>
+         <td><a href="Estructura.html"><button><h2>ESTRUCTURA</h2></button></a></td>
+         <td><a href="AtencionMedicaQueBrinda.html"><button><h2>ATENCION MEDICA QUE BRINDA</h2></button></a></td>
+         <td><a href="SabiasQue.html"><button><h2>¿SABIAS QUÉ?</h2></button></a></td>
+     </tr>
+    </table>
+    <br><br><br>
+
+    <table width="1504" height="606" border="10">
+    <tr>
+        <td>
+        <h2>Proceso actual para agendar citas medicas en la clinica</h2>
+            El proceso que se realiza actualmente para agendar las citas medicas en el Centro de Salud de Santa Cruz Tepexpan 
+            es ir a la clínica muy temprano para poder alcanzar una de las primeras fichas, después de varias horas llega el personal de la clínica y
+            te dicen que numero de ficha eres, después te tienes que esperar a que te toque tu turno y solo si te esperas en la clínica  alcanzas a 
+            recibir una consulta y te anotan en una bitácora donde llevan el registro de las personas que recibirán su consulta y mas tarde recibes tu consulta.</H1>
+            <h2>Propuesta para agendar las citas medicas</h2>
+            La propuesta que tenemos nosotros es que crearemos un sitio web en el que pediremos los siguientes datos NSS o CURP, nombre del paciente, apellido paterno, apellido materno, sexo, edad, motivo 
+            de su consulta por medio de un formulario el cual estara conectado a una base de datos y les daremos una ficha que contenga los datos que ingreso en el formulario y se les asignara la fecha, 
+            hora y dia al que acudira a su cita medica.
+            Esta es la propuesta que tenemos del formulario.
+            </td>
+      
+        <td>
+            <form>
+                <label>Número de seguro social/CURP:</label>
+                <input type="text" name="numero"><br><br>
+        
+                <label>Nombre completo:</label>
+                <input type="text" name="nombre"><br><br>
+        
+                <label>Edad:</label>
+                <input type="text" name="edad"><br><br>
+        
+                <label>Sexo:</label>
+                <select name="sexo">
+                    <option value="">Selecciona una opción</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="otro">Otro</option>
+                </select><br><br>
+        
+                <label>Razón o motivo:</label>
+                <textarea name="razon" rows="4" cols="50"></textarea><br><br>
+                <label for="Hora:">seleccioa una hora</label>
+                <input type="time" id="Hora" ame="Hora"></input></select><br><br>
+                  <label for="Hora:">seleccioa un dia</label>
+                <input type="date" id="fecha" ame="fecha"></input>
+                 </select><br><br>
+        
+                <button type="submit"> Enviar </button>
+            </form>
+        </td>
+    </tr>
+  </table>
+  
+
+            
+    </body>
+    <br><br><br><br><br><br><br>
+    <footer>
+    </footer>
+</HTML>   	
